@@ -262,7 +262,7 @@ main{
     max-width: 1110px;
     width: 100%;
     max-height: 500px;
-    margin-top: 180px;
+    padding-top: 255px;
 }
 .gallery div:nth-child(5){
     grid-column: 2/3;
@@ -273,6 +273,7 @@ footer{
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
+    padding-top: 100px;
 }
 .fot_content{
     display: flex;

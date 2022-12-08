@@ -427,6 +427,9 @@ footer{
 }
 
 @media (max-width: 768px){
+    header{
+        background-size: auto 100%;
+    }
     .header_content h2{
         font-weight: 700;
         font-size: 20px;

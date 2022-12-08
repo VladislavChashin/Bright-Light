@@ -340,6 +340,9 @@ footer{
 }
 
 @media (max-width: 1150px){
+    header{
+        background-size: auto 100%;
+    }
     .header_container {
         max-width: 800px;
         width: 100%;
@@ -427,6 +430,9 @@ footer{
 }
 
 @media (max-width: 768px){
+    header{
+        background-size: auto 100%;
+    }
     .header_content h2{
         font-weight: 700;
         font-size: 20px;
@@ -491,6 +497,9 @@ footer{
     }
 }
 @media (max-width: 430px){
+    header{
+        background-size: auto 100%;
+    }
     .about-us_content {
         max-width: 370px;
         justify-content: center;
@@ -548,6 +557,9 @@ footer{
     }
 }
 @media (max-width: 375px){
+    header{
+        background-size: auto 100%;
+    }
     .about-us_content {
         max-width: 320px;
         justify-content: center;

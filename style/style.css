@@ -46,11 +46,11 @@ nav{
     padding-left: 10px;
     color: #fff;
     text-decoration: none;
+    transition: .8s;
 }
 .header_navbar a:hover{
     color: #7A66CC;
     text-decoration: none;
-    transition-duration: 0.8s;
 }
 
 .header_content h2{
@@ -145,6 +145,7 @@ nav{
     width: 350px;
     height: 300px;
     margin-top: 30px;
+    transition: 1s;
 }
 .news p {
     position:relative;
@@ -160,17 +161,16 @@ nav{
     background: #7A66CC;
     opacity: 0.7;
     border-radius: 20px 0px;
+    transition: .5s;
 }
 .news:hover p {
     position:relative;
     bottom: 300px;
-    transition-duration: 0.5s;
     opacity: 0.9;
 
 }
 .news:hover {
     margin-top: 10px;
-    transition-duration: 1s;
 }
 
 main{
@@ -264,9 +264,11 @@ main{
     max-height: 500px;
     padding-top: 255px;
 }
+.gallery img{
+    transition: .5s;
+}
 .gallery img:hover{
     opacity: 0.4;
-    transition-duration: 0.5s;
 }
 .gallery div:nth-child(5){
     grid-column: 2/3;
@@ -327,7 +329,7 @@ footer{
     width: 28px;
     height: 28px;
     background-color: #7A66CC;
-
+    transition: .5s;
 }
 .nav_contact img{
     padding-top: 4px;
@@ -336,7 +338,6 @@ footer{
 }
 .nav_contact li:hover{
     box-shadow: 0 0 5px 5px #7A66CC;
-    transition-duration: 0.5s;
 }
 
 @media (max-width: 1150px){
